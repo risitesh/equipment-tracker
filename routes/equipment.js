@@ -3,7 +3,11 @@ var router = express.Router();
 
 /* GET equipment page. */
 router.get('/', function (req, res, next) {
-    res.send('in equipment');
+    res.render('index', { title: "Equipment", query: req.query });
+});
+
+router.get('/create', function (req, res, next) {
+    res.render('equipment-create', {title: "Equipment"});
 });
 
 module.exports = router;
