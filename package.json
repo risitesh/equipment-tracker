@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/blockstack/hello-blockstack#readme",
   "devDependencies": {
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "open": "^6.1.0"
   },
   "dependencies": {
